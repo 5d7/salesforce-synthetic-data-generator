@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "salesforce-synthetic-data-generator"
+version = "0.1.0"
+description = "Generate coherent synthetic Salesforce-style data for app, dashboard, and territory-planning tests."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sf-synthetic-data = "salesforce_synthetic_data:main"
+
+[tool.setuptools]
+py-modules = ["salesforce_synthetic_data"]
+

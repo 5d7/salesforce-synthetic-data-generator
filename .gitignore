@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+synthetic_*.csv
+synthetic_*.jsonl
+synthetic_*.ndjson
+emea_territory_scenario.csv
+
